@@ -1,5 +1,5 @@
 library(rjags)
-library(coda)
+library(coda) 
 
 
 data=read.delim(file = 'multiplelinreg.txt',header = F)
