@@ -1,0 +1,7 @@
+model{
+  x1 ~ dbin(p1,n1);
+  x2 ~ dbin(p2,n2);
+  p1 ~ dbeta(1,1);
+  p2 ~ dbeta(1,1);
+  delta <- p1 - p2
+}
